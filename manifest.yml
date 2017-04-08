@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-ederalmeida
+  host: iot-ederalmeida
+  disk_quota: 1024M
+  services:
+  - iot-ederalmeida-cloudantNoSQLDB
+  - iot-ederalmeida-iotf-service
